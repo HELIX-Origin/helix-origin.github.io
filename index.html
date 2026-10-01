@@ -15,54 +15,84 @@
 </head>
 <body>
   <main>
-    <aside class="sidebar">
+    <!-- #SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
       <div class="sidebar-info">
-        <div class="avatar-box" aria-hidden="true"><img src="https://github.com/HELIX-Origin.png?size=400" alt=""></div>
+        <figure class="avatar-box">
+          <img src="https://github.com/HELIX-Origin.png?size=400" alt="HELIX Origin logo" width="80" height="80">
+        </figure>
         <div class="info-content">
-          <h1 class="name">HELIX Origin</h1>
+          <h1 class="name" title="HELIX Origin">HELIX Origin</h1>
           <p class="title">Open-source development</p>
         </div>
+        <button class="info_more-btn" type="button" aria-expanded="false" aria-controls="sidebar-more" data-sidebar-btn>
+          <span>Show Info</span>
+          <span class="chevron" aria-hidden="true">▾</span>
+        </button>
       </div>
-      <div class="sidebar-info_more">
+
+      <div class="sidebar-info_more" id="sidebar-more">
         <div class="separator"></div>
-        <p class="sidebar-description">Building and customizing software in the open.</p>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box" aria-hidden="true">🏢</div>
+            <div class="contact-info">
+              <p class="contact-title">Profile</p>
+              <a class="contact-link" href="https://github.com/HELIX-Origin">GitHub Organization</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box" aria-hidden="true">🧬</div>
+            <div class="contact-info">
+              <p class="contact-title">Projects</p>
+              <a class="contact-link" href="#projects">Explore 4 repositories</a>
+            </div>
+          </li>
+        </ul>
         <div class="separator"></div>
-        <a class="profile-link" href="https://github.com/HELIX-Origin">View our GitHub profile ↗</a>
+        <ul class="social-list">
+          <li class="social-item"><a class="social-link" href="https://github.com/HELIX-Origin">🌐 GitHub</a></li>
+        </ul>
       </div>
     </aside>
 
+    <!-- #MAIN-CONTENT -->
     <div class="main-content">
+      <!-- #NAVBAR -->
       <nav class="navbar" aria-label="Main navigation">
         <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="#projects">Projects</a></li>
-          <li class="translate-control notranslate" translate="no">
-            <label for="translate-select">🌐 <span class="visually-hidden">Language</span></label>
-            <select id="translate-select" aria-label="Translate this page" disabled>
-              <option value="en" lang="en">English</option>
-              <option value="ja" lang="ja">日本語</option>
-              <option value="zh-CN" lang="zh-CN">简体中文</option>
-              <option value="zh-TW" lang="zh-TW">繁體中文</option>
-              <option value="ko" lang="ko">한국어</option>
-              <option value="es" lang="es">Español</option>
-              <option value="fr" lang="fr">Français</option>
-              <option value="de" lang="de">Deutsch</option>
-              <option value="ru" lang="ru">Русский</option>
-              <option value="pt" lang="pt">Português</option>
-              <option value="it" lang="it">Italiano</option>
-              <option value="th" lang="th">ไทย</option>
-              <option value="vi" lang="vi">Tiếng Việt</option>
-              <option value="id" lang="id">Bahasa Indonesia</option>
-              <option value="pl" lang="pl">Polski</option>
-              <option value="nl" lang="nl">Nederlands</option>
-              <option value="tr" lang="tr">Türkçe</option>
-              <option value="ar" lang="ar">العربية</option>
-            </select>
+          <li class="navbar-item"><a class="navbar-link active" href="#about" aria-current="page" data-nav-link="about">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#projects" data-nav-link="projects">Projects</a></li>
+          <li class="navbar-item">
+            <div class="translate-control notranslate" translate="no">
+              <label for="translate-select">🌐 <span class="visually-hidden">Language</span></label>
+              <select id="translate-select" aria-label="Translate this page" disabled>
+                <option value="en" lang="en">English</option>
+                <option value="ja" lang="ja">日本語</option>
+                <option value="zh-CN" lang="zh-CN">简体中文</option>
+                <option value="zh-TW" lang="zh-TW">繁體中文</option>
+                <option value="ko" lang="ko">한국어</option>
+                <option value="es" lang="es">Español</option>
+                <option value="fr" lang="fr">Français</option>
+                <option value="de" lang="de">Deutsch</option>
+                <option value="ru" lang="ru">Русский</option>
+                <option value="pt" lang="pt">Português</option>
+                <option value="it" lang="it">Italiano</option>
+                <option value="th" lang="th">ไทย</option>
+                <option value="vi" lang="vi">Tiếng Việt</option>
+                <option value="id" lang="id">Bahasa Indonesia</option>
+                <option value="pl" lang="pl">Polski</option>
+                <option value="nl" lang="nl">Nederlands</option>
+                <option value="tr" lang="tr">Türkçe</option>
+                <option value="ar" lang="ar">العربية</option>
+              </select>
+            </div>
           </li>
         </ul>
       </nav>
 
-      <article class="about active">
+      <!-- #ABOUT -->
+      <article class="about active" data-page="about">
         <header id="about">
           <h2 class="h2 article-title">About HELIX Origin</h2>
         </header>
@@ -111,9 +141,23 @@
             </li>
           </ul>
         </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box" aria-hidden="true">🌐</div>
+            <h3 class="h3">Project Pages</h3>
+          </div>
+          <p class="timeline-text">Each project page lives at <code>helix-origin.github.io/repository-name/</code> once GitHub Pages is enabled in that repository. Until then, use the source links above to explore the projects.</p>
+        </section>
       </article>
+
+      <footer class="site-footer">
+        <p>HELIX Origin open-source organization · Site layout from <a href="https://github.com/codewithsadee/vcard-personal-portfolio">vCard</a> (MIT)</p>
+      </footer>
     </div>
   </main>
-  <script src="translate.js"></script>
+
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/translate.js"></script>
 </body>
 </html>
