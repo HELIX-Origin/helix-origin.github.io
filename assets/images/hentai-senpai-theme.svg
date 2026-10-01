@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">Hentai Senpai Multi-DE Theme</title>
+  <desc id="description">Nord-colored desktop windows icon with the Hentai Senpai Multi-DE Theme title on a dark blue-gray background.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2e3440"/>
+      <stop offset="1" stop-color="#1c2530"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8fbcbb"/>
+      <stop offset="1" stop-color="#81a1c1"/>
+    </linearGradient>
+    <clipPath id="icon">
+      <rect x="218" y="315" width="450" height="450" rx="72"/>
+    </clipPath>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#background)"/>
+  <circle cx="1700" cy="150" r="540" fill="#88c0d0" opacity=".11"/>
+  <path d="M0 930 750 180h360L360 1080H0z" fill="#fff" opacity=".025"/>
+  <rect x="198" y="295" width="490" height="490" rx="92" fill="#fff" opacity=".08"/>
+  <g clip-path="url(#icon)">
+    <rect x="218" y="315" width="450" height="450" fill="#3b4252"/>
+    <circle cx="619" cy="343" r="160" fill="#88c0d0" opacity=".08"/>
+    <rect x="269" y="379" width="288" height="238" rx="20" fill="#242d3a" stroke="#81a1c1" stroke-opacity=".5" stroke-width="3"/>
+    <path d="M269 399a20 20 0 0 1 20-20h248a20 20 0 0 1 20 20v22H269z" fill="#4c566a"/>
+    <circle cx="298" cy="400" r="6" fill="#bf616a"/>
+    <circle cx="320" cy="400" r="6" fill="#ebcb8b"/>
+    <circle cx="342" cy="400" r="6" fill="#a3be8c"/>
+    <rect x="295" y="448" width="111" height="141" rx="10" fill="#434c5e"/>
+    <rect x="421" y="448" width="110" height="22" rx="8" fill="#88c0d0"/>
+    <rect x="421" y="486" width="86" height="12" rx="6" fill="#d8dee9" opacity=".7"/>
+    <rect x="421" y="511" width="102" height="12" rx="6" fill="#d8dee9" opacity=".4"/>
+    <rect x="421" y="536" width="72" height="12" rx="6" fill="#d8dee9" opacity=".4"/>
+    <rect x="370" y="508" width="252" height="184" rx="18" fill="#2e3440" stroke="#8fbcbb" stroke-width="3"/>
+    <path d="M370 526a18 18 0 0 1 18-18h216a18 18 0 0 1 18 18v25H370z" fill="#5e81ac"/>
+    <circle cx="395" cy="530" r="6" fill="#eceff4"/>
+    <circle cx="415" cy="530" r="6" fill="#eceff4" opacity=".6"/>
+    <rect x="395" y="572" width="202" height="91" rx="10" fill="#434c5e"/>
+    <circle cx="443" cy="617" r="26" fill="#8fbcbb"/>
+    <path d="M486 600h82m-82 19h65m-65 19h78" fill="none" stroke="#d8dee9" stroke-width="9" stroke-linecap="round" opacity=".75"/>
+  </g>
+  <rect x="218" y="315" width="450" height="450" rx="72" fill="none" stroke="#fff" stroke-opacity=".2" stroke-width="3"/>
+  <rect x="820" y="376" width="10" height="328" rx="5" fill="url(#accent)"/>
+  <text x="880" y="485" fill="#eceff4" font-family="Arial, sans-serif" font-size="82" font-weight="700">Hentai Senpai</text>
+  <text x="880" y="585" fill="#eceff4" font-family="Arial, sans-serif" font-size="82" font-weight="700">Multi-DE Theme</text>
+  <text x="885" y="660" fill="#b6c7d7" font-family="Arial, sans-serif" font-size="32" letter-spacing="8">NORD GTK THEME</text>
+</svg>
