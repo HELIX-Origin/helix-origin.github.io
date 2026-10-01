@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
   <title id="title">Magick Studio</title>
-  <desc id="description">Magick Studio app icon with a matching project title on a dark plum background.</desc>
+  <desc id="description">Magick Studio image and magic wand icon with a matching project title on a dark plum background.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#211727"/>
@@ -18,7 +18,21 @@
   <circle cx="1700" cy="150" r="540" fill="#b44b9c" opacity=".14"/>
   <path d="M0 930 750 180h360L360 1080H0z" fill="#fff" opacity=".025"/>
   <rect x="198" y="295" width="490" height="490" rx="92" fill="#fff" opacity=".08"/>
-  <image href="data:image/png;base64,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" x="218" y="315" width="450" height="450" preserveAspectRatio="xMidYMid meet" clip-path="url(#icon)"/>
+  <g clip-path="url(#icon)">
+    <rect x="218" y="315" width="450" height="450" fill="#2c1f34"/>
+    <circle cx="619" cy="343" r="160" fill="#e783c8" opacity=".12"/>
+    <circle cx="260" cy="740" r="140" fill="#ffbd69" opacity=".07"/>
+    <rect x="276" y="386" width="300" height="236" rx="24" fill="#3b2a45" stroke="url(#accent)" stroke-width="8"/>
+    <rect x="302" y="412" width="248" height="184" rx="12" fill="#1f1726"/>
+    <circle cx="500" cy="460" r="24" fill="#ffbd69"/>
+    <path d="M302 596v-44l70-74 56 58 38-34 84 94z" fill="#e783c8" opacity=".85"/>
+    <path d="M428 536l38-34 84 94H470z" fill="#b44b9c"/>
+    <path d="M452 724l150-150" stroke="#fff8fc" stroke-width="18" stroke-linecap="round"/>
+    <path d="M452 724l60-60" stroke="#3b2a45" stroke-width="18" stroke-linecap="round"/>
+    <path d="M612 520l9 23 23 9-23 9-9 23-9-23-23-9 23-9z" fill="#ffbd69"/>
+    <path d="M562 642l6 15 15 6-15 6-6 15-6-15-15-6 15-6z" fill="#e783c8"/>
+    <path d="M640 616l5 12 12 5-12 5-5 12-5-12-12-5 12-5z" fill="#fff8fc"/>
+  </g>
   <rect x="218" y="315" width="450" height="450" rx="72" fill="none" stroke="#fff" stroke-opacity=".2" stroke-width="3"/>
   <rect x="820" y="376" width="10" height="328" rx="5" fill="url(#accent)"/>
   <text x="880" y="510" fill="#fff8fc" font-family="Arial, sans-serif" font-size="96" font-weight="700">Magick Studio</text>
