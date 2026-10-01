@@ -38,9 +38,13 @@
   flex: none;
   width: 80px;
   height: 80px;
-  color: var(--orange-yellow-crayola);
-  font-size: 40px;
-  font-weight: var(--fw-600);
+}
+
+.avatar-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: inherit;
 }
 
 .sidebar-description,
@@ -198,6 +202,5 @@ body > .skiptranslate,
   .avatar-box {
     width: 150px;
     height: 150px;
-    font-size: 72px;
   }
 }
