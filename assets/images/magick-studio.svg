@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">Magick Studio</title>
+  <desc id="description">Magick Studio app icon with a matching project title on a dark plum background.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#211727"/>
+      <stop offset="1" stop-color="#17151e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#e783c8"/>
+      <stop offset="1" stop-color="#ffbd69"/>
+    </linearGradient>
+    <clipPath id="icon">
+      <rect x="218" y="315" width="450" height="450" rx="72"/>
+    </clipPath>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#background)"/>
+  <circle cx="1700" cy="150" r="540" fill="#b44b9c" opacity=".14"/>
+  <path d="M0 930 750 180h360L360 1080H0z" fill="#fff" opacity=".025"/>
+  <rect x="198" y="295" width="490" height="490" rx="92" fill="#fff" opacity=".08"/>
+  <image href="magick-studio-icon.png" x="218" y="315" width="450" height="450" preserveAspectRatio="xMidYMid meet" clip-path="url(#icon)"/>
+  <rect x="218" y="315" width="450" height="450" rx="72" fill="none" stroke="#fff" stroke-opacity=".2" stroke-width="3"/>
+  <rect x="820" y="376" width="10" height="328" rx="5" fill="url(#accent)"/>
+  <text x="880" y="510" fill="#fff8fc" font-family="Arial, sans-serif" font-size="96" font-weight="700">Magick Studio</text>
+  <text x="885" y="586" fill="#ddc1d6" font-family="Arial, sans-serif" font-size="34" letter-spacing="8">IMAGE EDITING STUDIO</text>
+</svg>
