@@ -222,8 +222,16 @@ body > .skiptranslate,
 }
 
 @media (min-width: 1024px) {
-  .about {
-    padding-top: 85px;
+  .navbar-list {
+    flex-wrap: nowrap;
+  }
+
+  article {
+    padding-top: 100px;
+  }
+
+  .site-footer {
+    margin-bottom: 15px;
   }
 }
 
