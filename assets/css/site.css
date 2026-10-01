@@ -128,6 +128,8 @@ body > .skiptranslate,
 .project-img {
   display: grid;
   place-items: center;
+  height: auto;
+  aspect-ratio: 16 / 9;
   background: var(--bg-gradient-onyx);
   border: 1px solid var(--jet);
   color: var(--orange-yellow-crayola);
