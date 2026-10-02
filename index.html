@@ -1,69 +1,50 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="HELIX Origin: open-source development and customization. Explore our projects and their GitHub Pages sites.">
-  <meta name="theme-color" content="#081426">
-  <title>HELIX Origin | Open-source projects</title>
-  <link rel="icon" href="https://github.com/HELIX-Origin.png?size=64">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/site.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
-  <main>
-    <!-- #SIDEBAR -->
-    <aside class="sidebar" data-sidebar>
-      <div class="sidebar-info">
-        <figure class="avatar-box">
-          <img src="https://github.com/HELIX-Origin.png?size=400" alt="HELIX Origin logo" width="80" height="80">
-        </figure>
-        <div class="info-content">
-          <h1 class="name" title="HELIX Origin">HELIX Origin</h1>
-          <p class="title">Open-source development</p>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HELIX Origin: open-source development and customization. Explore our projects and their GitHub Pages sites.">
+    <meta name="theme-color" content="#081426">
+    <title>HELIX Origin | Open-source projects</title>
+    <link rel="icon" href="https://github.com/HELIX-Origin.png?size=64">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/site.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="site-shell">
+
+      <aside class="sidebar" aria-label="Organization information">
+        <a class="brand" href="#about" aria-label="HELIX Origin home">
+          <span class="brand__mark" aria-hidden="true">
+            <img src="https://github.com/HELIX-Origin.png?size=400" alt="" width="150" height="150">
+          </span>
+          <span>
+            <strong>HELIX Origin</strong>
+            <small>Open-source development</small>
+          </span>
+        </a>
+        <div class="separator" aria-hidden="true"></div>
+        <p class="sidebar__summary">
+          A home for open-source applications, tools, and themes. Explore our
+          projects below or follow their development on GitHub.
+        </p>
+        <div class="sidebar__footer">
+          <a href="https://github.com/HELIX-Origin">🏢 GitHub Organization</a>
+          <a href="#projects">🧬 Projects</a>
+          <a href="https://github.com/HELIX-Origin">🌐 GitHub</a>
         </div>
-        <button class="info_more-btn" type="button" aria-expanded="false" aria-controls="sidebar-more" data-sidebar-btn>
-          <span>Show Info</span>
-          <span class="chevron" aria-hidden="true">▾</span>
-        </button>
-      </div>
+      </aside>
 
-      <div class="sidebar-info_more" id="sidebar-more">
-        <div class="separator"></div>
-        <ul class="contacts-list">
-          <li class="contact-item">
-            <div class="icon-box" aria-hidden="true">🏢</div>
-            <div class="contact-info">
-              <p class="contact-title">Profile</p>
-              <a class="contact-link" href="https://github.com/HELIX-Origin">GitHub Organization</a>
-            </div>
-          </li>
-          <li class="contact-item">
-            <div class="icon-box" aria-hidden="true">🧬</div>
-            <div class="contact-info">
-              <p class="contact-title">Projects</p>
-              <a class="contact-link" href="#projects">Explore 4 repositories</a>
-            </div>
-          </li>
-        </ul>
-        <div class="separator"></div>
-        <ul class="social-list">
-          <li class="social-item"><a class="social-link" href="https://github.com/HELIX-Origin">🌐 GitHub</a></li>
-        </ul>
-      </div>
-    </aside>
-
-    <!-- #MAIN-CONTENT -->
-    <div class="main-content">
-      <!-- #NAVBAR -->
-      <nav class="navbar" aria-label="Main navigation">
-        <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link active" href="#about" aria-current="page" data-nav-link="about">About</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="#projects" data-nav-link="projects">Projects</a></li>
-          <li class="navbar-item">
+      <main id="main" class="main-content">
+        <header class="page-header">
+          <nav class="navbar" aria-label="Main navigation">
+            <ul class="navbar-list">
+              <li><a class="navbar-link active" href="#about" aria-current="location">About</a></li>
+              <li><a class="navbar-link" href="#projects">Projects</a></li>
+            </ul>
             <div class="translate-control notranslate" translate="no">
               <label for="translate-select">🌐 <span class="visually-hidden">Language</span></label>
               <select id="translate-select" aria-label="Translate this page" disabled>
@@ -87,77 +68,111 @@
                 <option value="ar" lang="ar">العربية</option>
               </select>
             </div>
-          </li>
-        </ul>
-      </nav>
+          </nav>
 
-      <!-- #ABOUT -->
-      <article class="about active" data-page="about">
-        <header id="about">
-          <h2 class="h2 article-title">About HELIX Origin</h2>
-        </header>
-        <section class="about-text">
-          <p>HELIX Origin is a home for open-source development and customization. Explore our applications, tools, and themes below, or visit the <a href="https://github.com/HELIX-Origin">organization on GitHub</a> to follow their development.</p>
-        </section>
-
-        <section class="projects" id="projects" aria-labelledby="projects-title">
-          <h2 class="h2 article-title" id="projects-title">Projects</h2>
-          <ul class="project-list">
-            <li class="project-item active">
-              <a href="https://helix-origin.github.io/Hentai-Senpai-Multi-DE-Theme/">
-                <div class="project-img"><img src="assets/images/hentai-senpai-theme.svg" alt="Hentai Senpai Multi-DE Theme icon and project name" loading="lazy" decoding="async"></div>
-                <h3 class="project-title">Hentai Senpai Multi-DE Theme</h3>
-                <p class="project-category">A dark GTK theme based on Orchis with Nord colors.</p>
-                <span class="project-action">Project page ↗</span>
-              </a>
-              <a class="source-link" href="https://github.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme">Source on GitHub ↗</a>
-            </li>
-            <li class="project-item active">
-              <a href="https://helix-origin.github.io/NH-Reader/">
-                <div class="project-img"><img src="assets/images/nh-reader.svg" alt="NH Reader app icon and project name" loading="lazy" decoding="async"></div>
-                <h3 class="project-title">NH Reader</h3>
-                <p class="project-category">A cross-platform desktop reader with search, filters, and a global blacklist.</p>
-                <span class="project-action">Project page ↗</span>
-              </a>
-              <a class="source-link" href="https://github.com/HELIX-Origin/NH-Reader">Source on GitHub ↗</a>
-            </li>
-            <li class="project-item active">
-              <a href="https://helix-origin.github.io/HELIX-Discord-Bot/">
-                <div class="project-img"><img src="assets/images/discord-bot.svg" alt="HELIX Discord Bot icon and project name" loading="lazy" decoding="async"></div>
-                <h3 class="project-title">HELIX Discord Bot</h3>
-                <p class="project-category">A self-hosted bot for feeds, live alerts, administration, and a web dashboard.</p>
-                <span class="project-action">Project page ↗</span>
-              </a>
-              <a class="source-link" href="https://github.com/HELIX-Origin/HELIX-Discord-Bot">Source on GitHub ↗</a>
-            </li>
-            <li class="project-item active">
-              <a href="https://helix-origin.github.io/Magick-Studio/">
-                <div class="project-img"><img src="assets/images/magick-studio.svg" alt="Magick Studio app icon and project name" loading="lazy" decoding="async"></div>
-                <h3 class="project-title">Magick Studio</h3>
-                <p class="project-category">A cross-platform graphical interface for ImageMagick, built with Python.</p>
-                <span class="project-action">Project page ↗</span>
-              </a>
-              <a class="source-link" href="https://github.com/HELIX-Origin/Magick-Studio">Source on GitHub ↗</a>
-            </li>
-          </ul>
-        </section>
-
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box" aria-hidden="true">🌐</div>
-            <h3 class="h3">Project Pages</h3>
+          <p class="eyebrow">Open-source development</p>
+          <h1>Build, explore, and contribute to open-source projects.</h1>
+          <p class="lead">
+            HELIX Origin is a home for open-source applications, tools, and themes —
+            each with its own project page and source repository on GitHub.
+          </p>
+          <div class="header-actions">
+            <a class="button button--primary" href="#projects">Explore Projects</a>
+            <a class="button button--secondary" href="https://github.com/HELIX-Origin">GitHub Organization</a>
           </div>
-          <p class="timeline-text">Each project page lives at <code>helix-origin.github.io/repository-name/</code> once GitHub Pages is enabled in that repository. Until then, use the source links above to explore the projects.</p>
+        </header>
+
+        <section id="about" class="doc-section">
+          <div class="section-heading">
+            <span class="section-number">01</span>
+            <div>
+              <p class="eyebrow">Overview</p>
+              <h2>About &amp; Projects</h2>
+            </div>
+          </div>
+          <p>
+            HELIX Origin is a home for open-source development and customization.
+            Explore our applications, tools, and themes below, or visit the
+            <a href="https://github.com/HELIX-Origin">organization on GitHub</a>
+            to follow their development.
+          </p>
+
+          <div id="projects" class="project-grid">
+
+            <div class="project-card">
+              <a href="https://helix-origin.github.io/Hentai-Senpai-Multi-DE-Theme/" class="project-img">
+                <img src="assets/images/hentai-senpai-theme.svg" alt="Hentai Senpai Multi-DE Theme icon and project name" loading="lazy" decoding="async">
+              </a>
+              <div class="project-body">
+                <h3>Hentai Senpai Multi-DE Theme</h3>
+                <p>A dark GTK theme based on Orchis with Nord colors.</p>
+                <a class="project-action" href="https://helix-origin.github.io/Hentai-Senpai-Multi-DE-Theme/">Project page ↗</a>
+                <a class="source-link" href="https://github.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme">Source on GitHub ↗</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <a href="https://helix-origin.github.io/NH-Reader/" class="project-img">
+                <img src="assets/images/nh-reader.svg" alt="NH Reader app icon and project name" loading="lazy" decoding="async">
+              </a>
+              <div class="project-body">
+                <h3>NH Reader</h3>
+                <p>A cross-platform desktop reader with search, filters, and a global blacklist.</p>
+                <a class="project-action" href="https://helix-origin.github.io/NH-Reader/">Project page ↗</a>
+                <a class="source-link" href="https://github.com/HELIX-Origin/NH-Reader">Source on GitHub ↗</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <a href="https://helix-origin.github.io/HELIX-Discord-Bot/" class="project-img">
+                <img src="assets/images/discord-bot.svg" alt="HELIX Discord Bot icon and project name" loading="lazy" decoding="async">
+              </a>
+              <div class="project-body">
+                <h3>HELIX Discord Bot</h3>
+                <p>A self-hosted bot for feeds, live alerts, administration, and a web dashboard.</p>
+                <a class="project-action" href="https://helix-origin.github.io/HELIX-Discord-Bot/">Project page ↗</a>
+                <a class="source-link" href="https://github.com/HELIX-Origin/HELIX-Discord-Bot">Source on GitHub ↗</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <a href="https://helix-origin.github.io/Magick-Studio/" class="project-img">
+                <img src="assets/images/magick-studio.svg" alt="Magick Studio app icon and project name" loading="lazy" decoding="async">
+              </a>
+              <div class="project-body">
+                <h3>Magick Studio</h3>
+                <p>A cross-platform graphical interface for ImageMagick, built with Python.</p>
+                <a class="project-action" href="https://helix-origin.github.io/Magick-Studio/">Project page ↗</a>
+                <a class="source-link" href="https://github.com/HELIX-Origin/Magick-Studio">Source on GitHub ↗</a>
+              </div>
+            </div>
+
+          </div>
         </section>
-      </article>
 
-      <footer class="site-footer">
-        <p>HELIX Origin open-source organization · Site layout from <a href="https://github.com/codewithsadee/vcard-personal-portfolio">vCard</a> (MIT)</p>
-      </footer>
+        <section id="project-pages" class="doc-section">
+          <div class="section-heading">
+            <span class="section-number">02</span>
+            <div>
+              <p class="eyebrow">Hosting</p>
+              <h2>Project Pages</h2>
+            </div>
+          </div>
+          <p>
+            Each project page lives at <code>helix-origin.github.io/repository-name/</code>
+            once GitHub Pages is enabled in that repository. Until then, use the source links
+            above to explore the projects.
+          </p>
+        </section>
+
+        <footer class="site-footer">
+          <span>HELIX Origin open-source organization</span>
+          <a href="https://github.com/HELIX-Origin">GitHub Organization</a>
+        </footer>
+      </main>
+
     </div>
-  </main>
-
-  <script src="assets/js/script.js"></script>
-  <script src="assets/js/translate.js"></script>
-</body>
+    <div id="google_translate_element" class="translation-host" hidden></div>
+    <script src="assets/js/translate.js" defer></script>
+  </body>
 </html>
