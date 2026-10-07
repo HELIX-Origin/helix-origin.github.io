@@ -8,7 +8,7 @@ In this repository's **Settings → Pages**, publish from the root of the defaul
 
 ## Publishing project subpages
 
-Each project repository publishes **its own** Pages site. In each repository's **Settings → Pages**, choose a branch and site directory containing an `index.html`, or deploy built static files through a Pages workflow. GitHub serves that site at `https://helix-origin.github.io/<repository-name>/`. This homepage links to those paths, but cannot configure or deploy other repositories. Until a project's site is published, its Project page link may return 404; its Source on GitHub link will still work.
+Each project repository publishes **its own** Pages site. In each repository's **Settings → Pages**, choose a branch and site directory containing an `index.html`, or deploy built static files through a Pages workflow. GitHub serves that site at `https://helix-origin.github.io/<repository-name>/`. This homepage links to those paths, but cannot configure or deploy other repositories.
 
 To add or rename a project, update its card in `index.html` with the exact case-sensitive repository name in both the Pages URL and GitHub source URL. Use relative asset paths (such as `./assets/style.css`) in each project site so its CSS, scripts, and images resolve beneath `/<repository-name>/`.
 
