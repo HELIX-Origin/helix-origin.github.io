@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">HELIX Docs Theme</title>
+  <desc id="description">Documentation and wiki theme interface icon with matching HELIX Docs Theme title on a dark obsidian background.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07111f"/>
+      <stop offset="1" stop-color="#040a14"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#48d8f2"/>
+      <stop offset="1" stop-color="#b06cff"/>
+    </linearGradient>
+    <linearGradient id="docWindow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#12243a" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#0d1b2d" stop-opacity=".95"/>
+    </linearGradient>
+    <linearGradient id="codeBlock" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07111f" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#0a182b" stop-opacity=".9"/>
+    </linearGradient>
+    <clipPath id="icon">
+      <rect x="218" y="315" width="450" height="450" rx="72"/>
+    </clipPath>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#background)"/>
+  <circle cx="1700" cy="150" r="540" fill="#48d8f2" opacity=".10"/>
+  <circle cx="1400" cy="900" r="420" fill="#b06cff" opacity=".08"/>
+  <path d="M0 930 750 180h360L360 1080H0z" fill="#fff" opacity=".025"/>
+  <rect x="198" y="295" width="490" height="490" rx="92" fill="#fff" opacity=".08"/>
+  <g clip-path="url(#icon)">
+    <rect x="218" y="315" width="450" height="450" fill="#0d1b2d"/>
+    <circle cx="619" cy="343" r="160" fill="#48d8f2" opacity=".12"/>
+    <circle cx="260" cy="740" r="140" fill="#b06cff" opacity=".10"/>
+    
+    <!-- Outer documentation browser window -->
+    <rect x="255" y="360" width="376" height="360" rx="20" fill="url(#docWindow)" stroke="#48d8f2" stroke-opacity=".5" stroke-width="3"/>
+    
+    <!-- Window title bar -->
+    <path d="M255 380a20 20 0 0 1 20-20h336a20 20 0 0 1 20 20v26H255z" fill="#19324b" fill-opacity=".85"/>
+    <circle cx="282" cy="373" r="6" fill="#ff7188"/>
+    <circle cx="302" cy="373" r="6" fill="#ffd27a"/>
+    <circle cx="322" cy="373" r="6" fill="#67ddb0"/>
+    
+    <!-- Top search/filter pill -->
+    <rect x="345" y="364" width="170" height="18" rx="9" fill="#0d1b2d" stroke="#48d8f2" stroke-opacity=".3" stroke-width="1.5"/>
+    <circle cx="357" cy="373" r="4" fill="#48d8f2" opacity=".8"/>
+    <rect x="368" y="370" width="85" height="6" rx="3" fill="#a6b8ce" opacity=".6"/>
+    <rect x="524" y="367" width="80" height="12" rx="6" fill="#48d8f2" fill-opacity=".2"/>
+    
+    <!-- Sidebar navigation (left pane) -->
+    <rect x="255" y="386" width="112" height="334" fill="#0e1f35" fill-opacity=".6"/>
+    <line x1="367" y1="386" x2="367" y2="720" stroke="#203750" stroke-width="2"/>
+    
+    <!-- Sidebar category 1 & nav items -->
+    <rect x="272" y="405" width="54" height="8" rx="4" fill="#b06cff" opacity=".85"/>
+    <!-- Active nav item pill -->
+    <rect x="267" y="423" width="90" height="24" rx="6" fill="#48d8f2" fill-opacity=".2" stroke="#48d8f2" stroke-opacity=".7" stroke-width="1.5"/>
+    <rect x="277" y="431" width="60" height="8" rx="4" fill="#48d8f2"/>
+    
+    <!-- Sub-tree items -->
+    <circle cx="278" cy="463" r="3" fill="#a6b8ce" opacity=".6"/>
+    <rect x="288" y="459" width="56" height="8" rx="4" fill="#a6b8ce" opacity=".5"/>
+    
+    <circle cx="278" cy="483" r="3" fill="#a6b8ce" opacity=".6"/>
+    <rect x="288" y="479" width="48" height="8" rx="4" fill="#a6b8ce" opacity=".5"/>
+    
+    <circle cx="278" cy="503" r="3" fill="#a6b8ce" opacity=".6"/>
+    <rect x="288" y="499" width="62" height="8" rx="4" fill="#a6b8ce" opacity=".5"/>
+    
+    <!-- Sidebar category 2 -->
+    <rect x="272" y="528" width="46" height="8" rx="4" fill="#b06cff" opacity=".7"/>
+    <circle cx="278" cy="549" r="3" fill="#a6b8ce" opacity=".6"/>
+    <rect x="288" y="545" width="52" height="8" rx="4" fill="#a6b8ce" opacity=".4"/>
+    <circle cx="278" cy="569" r="3" fill="#a6b8ce" opacity=".6"/>
+    <rect x="288" y="565" width="44" height="8" rx="4" fill="#a6b8ce" opacity=".4"/>
+    
+    <!-- Main content area (right pane) -->
+    <!-- Breadcrumb trail -->
+    <rect x="382" y="405" width="38" height="7" rx="3.5" fill="#48d8f2" opacity=".7"/>
+    <rect x="424" y="405" width="4" height="7" rx="2" fill="#203750"/>
+    <rect x="432" y="405" width="55" height="7" rx="3.5" fill="#a6b8ce" opacity=".6"/>
+    
+    <!-- Page title -->
+    <rect x="382" y="422" width="165" height="16" rx="5" fill="#edf5ff"/>
+    
+    <!-- Lead paragraph -->
+    <rect x="382" y="449" width="230" height="8" rx="4" fill="#a6b8ce" opacity=".6"/>
+    <rect x="382" y="464" width="195" height="8" rx="4" fill="#a6b8ce" opacity=".4"/>
+    
+    <!-- Code snippet card -->
+    <rect x="382" y="484" width="232" height="78" rx="8" fill="url(#codeBlock)" stroke="#203750" stroke-width="1.5"/>
+    <rect x="394" y="496" width="68" height="7" rx="3.5" fill="#b06cff" opacity=".9"/>
+    <rect x="468" y="496" width="55" height="7" rx="3.5" fill="#48d8f2" opacity=".85"/>
+    <rect x="394" y="511" width="125" height="7" rx="3.5" fill="#67ddb0" opacity=".8"/>
+    <rect x="394" y="526" width="90" height="7" rx="3.5" fill="#a6b8ce" opacity=".6"/>
+    <rect x="394" y="541" width="105" height="7" rx="3.5" fill="#ffd27a" opacity=".8"/>
+    
+    <!-- Feature cards row -->
+    <rect x="382" y="574" width="110" height="52" rx="8" fill="#0d1b2d" stroke="#48d8f2" stroke-opacity=".4" stroke-width="1.5"/>
+    <rect x="392" y="584" width="46" height="7" rx="3.5" fill="#48d8f2"/>
+    <rect x="392" y="598" width="80" height="5" rx="2.5" fill="#a6b8ce" opacity=".6"/>
+    <rect x="392" y="608" width="60" height="5" rx="2.5" fill="#a6b8ce" opacity=".4"/>
+    
+    <rect x="504" y="574" width="110" height="52" rx="8" fill="#0d1b2d" stroke="#b06cff" stroke-opacity=".4" stroke-width="1.5"/>
+    <rect x="514" y="584" width="46" height="7" rx="3.5" fill="#b06cff"/>
+    <rect x="514" y="598" width="80" height="5" rx="2.5" fill="#a6b8ce" opacity=".6"/>
+    <rect x="514" y="608" width="60" height="5" rx="2.5" fill="#a6b8ce" opacity=".4"/>
+    
+    <!-- Dual Helix DNA Emblem floating in bottom right -->
+    <path d="M570 655c15-10 25 10 40 0m-40 0c15 10 25-10 40 0" stroke="#48d8f2" stroke-width="3" stroke-linecap="round" fill="none" opacity=".8"/>
+    <circle cx="570" cy="655" r="4" fill="#b06cff"/>
+    <circle cx="610" cy="655" r="4" fill="#48d8f2"/>
+  </g>
+  
+  <!-- Outer border around icon card -->
+  <rect x="218" y="315" width="450" height="450" rx="72" fill="none" stroke="#48d8f2" stroke-opacity=".3" stroke-width="3"/>
+  
+  <!-- Vertical accent divider bar -->
+  <rect x="820" y="376" width="10" height="328" rx="5" fill="url(#accent)"/>
+  
+  <!-- Typography titles on the right -->
+  <text x="880" y="485" fill="#edf5ff" font-family="Arial, sans-serif" font-size="82" font-weight="700">HELIX Docs</text>
+  <text x="880" y="585" fill="#dfeafa" font-family="Arial, sans-serif" font-size="56" font-weight="600">Theme &amp; Framework</text>
+  <text x="885" y="660" fill="#48d8f2" font-family="Arial, sans-serif" font-size="32" letter-spacing="8">JEKYLL DOCUMENTATION THEME</text>
+</svg>

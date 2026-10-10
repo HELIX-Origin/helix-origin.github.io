@@ -73,7 +73,7 @@ to follow their development.
 
 <div class="project-card">
 <a href="https://helix-origin.github.io/helix-docs/" class="project-img">
-<img src="https://github.com/HELIX-Origin.png?size=400" alt="HELIX Docs Theme icon" loading="lazy" decoding="async">
+<img src="{{ '/assets/images/helix-docs.svg' | relative_url }}" alt="helix-docs theme icon and project name" loading="lazy" decoding="async">
 </a>
 <div class="project-body">
 <h3>helix-docs</h3>
