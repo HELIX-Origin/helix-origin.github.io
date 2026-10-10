@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">Windhawk Themes</title>
+  <desc id="description">Windows 11 shell styling icon with matching Windhawk Themes title on a dark obsidian glass background.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#081426"/>
+      <stop offset="1" stop-color="#050c18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#48d8f2"/>
+      <stop offset="1" stop-color="#b06cff"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#19324b" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#0d1b2d" stop-opacity=".85"/>
+    </linearGradient>
+    <clipPath id="icon">
+      <rect x="218" y="315" width="450" height="450" rx="72"/>
+    </clipPath>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#background)"/>
+  <circle cx="1700" cy="150" r="540" fill="#48d8f2" opacity=".10"/>
+  <circle cx="1400" cy="900" r="420" fill="#b06cff" opacity=".08"/>
+  <path d="M0 930 750 180h360L360 1080H0z" fill="#fff" opacity=".025"/>
+  <rect x="198" y="295" width="490" height="490" rx="92" fill="#fff" opacity=".08"/>
+  <g clip-path="url(#icon)">
+    <rect x="218" y="315" width="450" height="450" fill="#0d1b2d"/>
+    <circle cx="619" cy="343" r="160" fill="#48d8f2" opacity=".12"/>
+    <circle cx="260" cy="740" r="140" fill="#b06cff" opacity=".10"/>
+    
+    <!-- Outer glass shell window -->
+    <rect x="269" y="375" width="348" height="230" rx="18" fill="url(#glass)" stroke="#48d8f2" stroke-opacity=".5" stroke-width="3"/>
+    <path d="M269 393a18 18 0 0 1 18-18h312a18 18 0 0 1 18 18v24H269z" fill="#19324b" fill-opacity=".8"/>
+    <circle cx="295" cy="394" r="6" fill="#ff7188"/>
+    <circle cx="315" cy="394" r="6" fill="#e5c07b"/>
+    <circle cx="335" cy="394" r="6" fill="#48d8f2"/>
+    
+    <!-- Internal styler mod pills and elements -->
+    <rect x="295" y="430" width="80" height="70" rx="10" fill="#203750" stroke="#48d8f2" stroke-opacity=".3" stroke-width="2"/>
+    <rect x="390" y="430" width="205" height="24" rx="8" fill="#48d8f2" fill-opacity=".85"/>
+    <rect x="390" y="464" width="160" height="14" rx="7" fill="#b06cff" fill-opacity=".7"/>
+    <rect x="390" y="488" width="120" height="12" rx="6" fill="#f1f6ff" fill-opacity=".4"/>
+    
+    <!-- Docked Taskbar with Win11 center items -->
+    <rect x="250" y="635" width="386" height="66" rx="16" fill="#0d1a2d" stroke="#b06cff" stroke-opacity=".6" stroke-width="3"/>
+    <rect x="330" y="650" width="36" height="36" rx="9" fill="#48d8f2"/>
+    <rect x="380" y="650" width="36" height="36" rx="9" fill="#b06cff"/>
+    <rect x="430" y="650" width="36" height="36" rx="9" fill="#48d8f2" fill-opacity=".8"/>
+    <rect x="480" y="650" width="36" height="36" rx="9" fill="#f1f6ff" fill-opacity=".7"/>
+    <rect x="530" y="650" width="36" height="36" rx="9" fill="#203750"/>
+  </g>
+  <rect x="218" y="315" width="450" height="450" rx="72" fill="none" stroke="#48d8f2" stroke-opacity=".3" stroke-width="3"/>
+  <rect x="820" y="376" width="10" height="328" rx="5" fill="url(#accent)"/>
+  <text x="880" y="485" fill="#f1f6ff" font-family="Arial, sans-serif" font-size="82" font-weight="700">Windhawk Themes</text>
+  <text x="880" y="585" fill="#dfeafa" font-family="Arial, sans-serif" font-size="56" font-weight="600">Theme Engineering</text>
+  <text x="885" y="660" fill="#48d8f2" font-family="Arial, sans-serif" font-size="32" letter-spacing="8">WINDOWS 11 FRAMEWORK &amp; WIKI</text>
+</svg>

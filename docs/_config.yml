@@ -1,0 +1,84 @@
+# ==============================================================================
+# HELIX Origin - Organization Portal Configuration
+# ==============================================================================
+
+title: HELIX Origin
+tagline: Open-source development
+description: "A home for open-source applications, tools, and themes. Explore our projects below or follow their development on GitHub."
+url: "https://helix-origin.github.io"
+baseurl: ""
+repository: "HELIX-Origin/helix-origin.github.io"
+github_username: "HELIX-Origin"
+
+# Remote Theme Configuration
+remote_theme: HELIX-Origin/helix-docs
+has_projects: true
+
+
+encoding: "utf-8"
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  parse_block_html: true
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: yaml
+    guess_lang: true
+    line_numbers: false
+    wrap: true
+
+# Sass / SCSS Configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+relative_links:
+  enabled: true
+  collections: true
+
+optional_front_matter:
+  remove_originals: true
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - tools
+  - projects
+  - src
+  - .agents
+  - .github
+  - .vscode
+  - scratch
+  - "*.ps1"
+  - "*.bat"
+  - "*.py"
+  - "*.yml.bak"
+  - "*.tmp"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+  - scope:
+      path: "index.md"
+    values:
+      layout: default
+      page_class: page--home
