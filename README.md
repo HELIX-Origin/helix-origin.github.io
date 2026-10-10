@@ -17,6 +17,5 @@ We welcome contributions to our projects. Please visit the respective project re
 
 ## License
 
-All projects under HELIX Origin are open-source and licensed under the BSD 3-Clause License.
 
-For more details, please refer to the **`LICENSE.md`** file in each repository.
+⚖️ All projects under HELIX Origin are open-source and licensed under the BSD-3-Clause License — see [`LICENSE`](LICENSE.md) file for details.
