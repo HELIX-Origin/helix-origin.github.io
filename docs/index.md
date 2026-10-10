@@ -73,10 +73,10 @@ to follow their development.
 
 <div class="project-card">
 <a href="https://helix-origin.github.io/helix-docs/" class="project-img">
-<img src="{{ '/assets/images/helix-docs.svg' | relative_url }}" alt="helix-docs theme icon and project name" loading="lazy" decoding="async">
+<img src="{{ '/assets/images/helix-docs.svg' | relative_url }}" alt="HELIX Docs theme icon and project name" loading="lazy" decoding="async">
 </a>
 <div class="project-body">
-<h3>helix-docs</h3>
+<h3>HELIX Docs</h3>
 <p>Modern multi-layout GitHub Pages Jekyll theme for documentation guides, technical wikis, and portals.</p>
 <div class="project-actions">
 <a class="project-action" href="https://helix-origin.github.io/helix-docs/">Project page ↗</a>
