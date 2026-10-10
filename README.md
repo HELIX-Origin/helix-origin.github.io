@@ -2,7 +2,7 @@
 
 A home for open-source applications, tools, and themes by HELIX Origin.
 
-Check out our projects below or follow their development on GitHub.
+Check out our projects below or follow their development on [`GitHub`](https://github.com/HELIX-Origin/repositories).
 
 ## Projects
 
