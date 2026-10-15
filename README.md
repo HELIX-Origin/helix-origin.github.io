@@ -8,6 +8,7 @@ Check out our projects below or follow their development on [`GitHub`](https://g
 
 - [NH Reader](https://helix-origin.github.io/NH-Reader)
 - [Steam Vault](https://helix-origin.github.io/Steam-Vault)
+- [Steam Vault Catalogue](https://helix-origin.github.io/Steam-Vault-Catalogue)
 - [Windhawk Themes](https://helix-origin.github.io/Windhawk-Themes)
 - [Hentai Senpai Multi DE Theme](https://helix-origin.github.io/Hentai-Senpai-Multi-DE-Theme)
 - [HELIX Docs](https://helix-origin.github.io/helix-docs)

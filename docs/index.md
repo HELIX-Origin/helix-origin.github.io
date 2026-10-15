@@ -72,6 +72,20 @@ to follow their development.
 </div>
 
 <div class="project-card">
+<a href="https://helix-origin.github.io/Steam-Vault-Catalogue/" class="project-img">
+<img src="{{ '/assets/images/steam-vault-catalogue.svg' | relative_url }}" alt="Steam Vault Catalogue icon and project name" loading="lazy" decoding="async">
+</a>
+<div class="project-body">
+<h3>Steam Vault Catalogue</h3>
+<p>Community-maintained open video game catalogue and unified ingestion engine with multi-platform metadata.</p>
+<div class="project-actions">
+<a class="project-action" href="https://helix-origin.github.io/Steam-Vault-Catalogue/">Project page ↗</a>
+<a class="source-link" href="https://github.com/HELIX-Origin/Steam-Vault-Catalogue">Source on GitHub ↗</a>
+</div>
+</div>
+</div>
+
+<div class="project-card">
 <a href="https://helix-origin.github.io/Windhawk-Themes/" class="project-img">
 <img src="{{ '/assets/images/windhawk-themes.svg' | relative_url }}" alt="Windhawk Themes icon and project name" loading="lazy" decoding="async">
 </a>
