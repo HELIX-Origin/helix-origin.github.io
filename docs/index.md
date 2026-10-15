@@ -58,6 +58,20 @@ to follow their development.
 </div>
 
 <div class="project-card">
+<a href="https://helix-origin.github.io/Steam-Vault/" class="project-img">
+<img src="{{ '/assets/images/steam-vault.svg' | relative_url }}" alt="Steam Vault icon and project name" loading="lazy" decoding="async">
+</a>
+<div class="project-body">
+<h3>Steam Vault</h3>
+<p>Modern cross-platform Steam library organizer, custom artwork manager, and multi-launcher desktop suite.</p>
+<div class="project-actions">
+<a class="project-action" href="https://helix-origin.github.io/Steam-Vault/">Project page ↗</a>
+<a class="source-link" href="https://github.com/HELIX-Origin/Steam-Vault">Source on GitHub ↗</a>
+</div>
+</div>
+</div>
+
+<div class="project-card">
 <a href="https://helix-origin.github.io/Windhawk-Themes/" class="project-img">
 <img src="{{ '/assets/images/windhawk-themes.svg' | relative_url }}" alt="Windhawk Themes icon and project name" loading="lazy" decoding="async">
 </a>
