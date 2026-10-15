@@ -99,5 +99,19 @@ to follow their development.
 </div>
 </div>
 
+<div class="project-card">
+<a href="https://helix-origin.github.io/FFXIV-Config/" class="project-img">
+<img src="{{ '/assets/images/ffxiv-config.svg' | relative_url }}" alt="FFXIV Config icon and project name" loading="lazy" decoding="async">
+</a>
+<div class="project-body">
+<h3>FFXIV Config</h3>
+<p>Information-dense HUD, hotbar, and macro layout for Final Fantasy XIV with pre-arranged jobs and on-screen menu.</p>
+<div class="project-actions">
+<a class="project-action" href="https://helix-origin.github.io/FFXIV-Config/">Project page ↗</a>
+<a class="source-link" href="https://github.com/HELIX-Origin/FFXIV-Config">Source on GitHub ↗</a>
+</div>
+</div>
+</div>
+
 </div>
 </section>
