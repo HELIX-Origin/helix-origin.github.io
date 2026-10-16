@@ -30,20 +30,6 @@ to follow their development.
 <div id="projects" class="project-grid">
 
 <div class="project-card">
-<a href="https://helix-origin.github.io/Hentai-Senpai-Multi-DE-Theme/" class="project-img">
-<img src="{{ '/assets/images/hentai-senpai-theme.svg' | relative_url }}" alt="Hentai Senpai Multi-DE Theme icon and project name" loading="lazy" decoding="async">
-</a>
-<div class="project-body">
-<h3>Hentai Senpai Multi-DE Theme</h3>
-<p>A dark GTK theme based on Orchis with Nord colors.</p>
-<div class="project-actions">
-<a class="project-action" href="https://helix-origin.github.io/Hentai-Senpai-Multi-DE-Theme/">Project page ↗</a>
-<a class="source-link" href="https://github.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme">Source on GitHub ↗</a>
-</div>
-</div>
-</div>
-
-<div class="project-card">
 <a href="https://helix-origin.github.io/NH-Reader/" class="project-img">
 <img src="{{ '/assets/images/nh-reader.svg' | relative_url }}" alt="NH Reader app icon and project name" loading="lazy" decoding="async">
 </a>
