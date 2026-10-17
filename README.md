@@ -7,8 +7,8 @@ Check out our projects below or follow their development on [`GitHub`](https://g
 ## Projects
 
 - [NH Reader](https://helix-origin.github.io/NH-Reader)
-- [Steam Vault](https://helix-origin.github.io/Steam-Vault)
-- [Steam Vault Catalogue](https://helix-origin.github.io/Steam-Vault-Catalogue)
+- [Universal Game Launcher](https://helix-origin.github.io/Universal-Game-Launcher)
+- [Theme Toolkit](https://helix-origin.github.io/Theme-Toolkit)
 - [Windhawk Themes](https://helix-origin.github.io/Windhawk-Themes)
 - [HELIX Docs](https://helix-origin.github.io/helix-docs)
 - [FFXIV Config](https://helix-origin.github.io/FFXIV-Config)
