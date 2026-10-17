@@ -11,7 +11,7 @@ repository: "HELIX-Origin/helix-origin.github.io"
 github_username: "HELIX-Origin"
 
 # Remote Theme Configuration
-remote_theme: HELIX-Origin/helix-docs
+remote_theme: HELIX-Origin/helix-jekyll-theme
 
 has_projects: true
 
