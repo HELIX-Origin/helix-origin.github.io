@@ -10,9 +10,6 @@ header_actions:
   - title: Technical Wiki
     url: https://wiki.helix-origin.club
     class: button--secondary
-  - title: API Gateway
-    url: https://api.helix-origin.club/_health
-    class: button--secondary
   - title: GitHub Organization
     url: https://github.com/HELIX-Origin
     class: button--secondary
@@ -27,8 +24,8 @@ header_actions:
 </div>
 </div>
 <p>
-HELIX Origin is a home for open-source applications, desktop tools, and community metadata.
-All project-specific user guides, installation manuals, technical specifications, and repository resources are centrally maintained across our dedicated documentation and wiki hubs:
+HELIX Origin is a home for open-source applications, desktop tools, and community projects.
+All project-specific user guides, installation walkthroughs, configuration manuals, and technical specifications are centrally maintained across our dedicated documentation and wiki hubs:
 </p>
 
 <div id="projects" class="project-grid">
@@ -39,7 +36,7 @@ All project-specific user guides, installation manuals, technical specifications
 </a>
 <div class="project-body">
 <h3>Documentation Hub</h3>
-<p>Centralized documentation portal with official installation guides, setup tutorials, and user manuals for all HELIX Origin projects.</p>
+<p>Official user manuals, installation guides, setup walkthroughs, and configuration references for all HELIX Origin applications, tools, and APIs.</p>
 <div class="project-actions">
 <a class="project-action" href="https://docs.helix-origin.club">Visit Documentation Hub ↗</a>
 <a class="source-link" href="https://github.com/HELIX-Origin/docs">Source on GitHub ↗</a>
@@ -53,25 +50,10 @@ All project-specific user guides, installation manuals, technical specifications
 </a>
 <div class="project-body">
 <h3>Technical Wiki Hub</h3>
-<p>Deep technical architecture specifications, data schemas, plugin developer manuals, and contributor curation guidelines.</p>
+<p>Deep technical architecture specifications, data schemas, reverse-engineering notes, plugin developer manuals, and contributor curation guidelines.</p>
 <div class="project-actions">
 <a class="project-action" href="https://wiki.helix-origin.club">Visit Technical Wiki ↗</a>
 <a class="source-link" href="https://github.com/HELIX-Origin/wiki">Source on GitHub ↗</a>
-</div>
-</div>
-</div>
-
-<div class="project-card">
-<a href="https://docs.helix-origin.club/helix-gaming-db/" class="project-img">
-<img src="{{ '/assets/images/helix-docs.svg' | relative_url }}" alt="HELIX Gaming DB API Gateway icon" loading="lazy" decoding="async">
-</a>
-<div class="project-body">
-<h3>HELIX Gaming DB API Gateway</h3>
-<p>Unified Cloudflare Worker REST API gateway serving verified gaming metadata volume-sharded across symmetrical repositories with edge caching.</p>
-<div class="project-actions">
-<a class="project-action" href="https://docs.helix-origin.club/helix-gaming-db/">API Documentation ↗</a>
-<a class="project-action" href="https://api.helix-origin.club/_health">Gateway Health ↗</a>
-<a class="source-link" href="https://github.com/HELIX-Origin/helix-gaming-db-00">Source on GitHub ↗</a>
 </div>
 </div>
 </div>
