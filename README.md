@@ -1,23 +1,36 @@
 # HELIX Origin
 
+<p align="center">
+  <a href="https://github.com/HELIX-Origin"><img src="https://img.shields.io/badge/Organization-HELIX--Origin-blue?logo=github" alt="HELIX Origin" height="20" /></a>
+  <a href="https://docs.helix-origin.club"><img src="https://img.shields.io/badge/Docs-docs.helix--origin.club-brightgreen" alt="Documentation Hub" height="20" /></a>
+  <a href="https://wiki.helix-origin.club"><img src="https://img.shields.io/badge/Wiki-wiki.helix--origin.club-brightgreen" alt="Technical Wiki" height="20" /></a>
+  <a href="https://api.helix-origin.club/_health"><img src="https://img.shields.io/badge/API%20Gateway-Live-brightgreen" alt="API Gateway" height="20" /></a>
+  <a href="https://opensource.org/licenses/BSD-3-Clause"><img src="https://img.shields.io/badge/License-BSD--3--Clause-blue.svg" alt="License: BSD-3-Clause" height="20" /></a>
+</p>
+
 A home for open-source applications, tools, and themes by HELIX Origin.
 
-Check out our projects below or follow their development on [`GitHub`](https://github.com/HELIX-Origin/repositories).
+This portal repository serves as the organization landing gateway, hosted at **[https://www.helix-origin.club](https://www.helix-origin.club)**.
 
-## Projects
+---
 
-- [NH Reader](https://helix-origin.github.io/NH-Reader)
-- [Universal Game Launcher](https://helix-origin.github.io/Universal-Game-Launcher)
-- [Theme Toolkit](https://helix-origin.github.io/Theme-Toolkit)
-- [Windhawk Themes](https://helix-origin.github.io/Windhawk-Themes)
-- [HELIX Docs](https://helix-origin.github.io/helix-docs)
-- [FFXIV Config](https://helix-origin.github.io/FFXIV-Config)
+## 🌐 Ecosystem Hubs
 
-## Contributing
+Project-specific documentation, user guides, technical specifications, and repository details are centrally maintained across our dedicated hubs:
 
-We welcome contributions to our projects. Please visit the respective project repositories on GitHub to report issues, submit pull requests, or participate in discussions.
+- **[Documentation Hub](https://docs.helix-origin.club)** — Official user manuals, step-by-step installation guides, and configuration references for every HELIX Origin project.
+- **[Technical Wiki](https://wiki.helix-origin.club)** — Deep architecture specifications, data schemas, plugin developer manuals, and contributor curation guidelines.
+- **[API Gateway](https://api.helix-origin.club)** — Federated Cloudflare Worker REST API gateway serving the multi-repository volume-sharded HELIX Gaming DB.
+- **[GitHub Organization](https://github.com/HELIX-Origin)** — Source code repositories, issue trackers, and community collaboration.
 
-## License
+---
 
+## 🤝 Contributing
 
-⚖️ All projects under HELIX Origin are open-source and licensed under the BSD-3-Clause License — see [`LICENSE`](LICENSE.md) file for details.
+We welcome community contributions across all our projects. Please visit the respective project repositories on GitHub or consult the [Contributor Guidelines](https://wiki.helix-origin.club) on our Technical Wiki.
+
+---
+
+## ⚖️ License
+
+All projects under HELIX Origin are open-source and licensed under permissive open-source licenses — see individual project repositories and [`LICENSE`](LICENSE.md) for details.
